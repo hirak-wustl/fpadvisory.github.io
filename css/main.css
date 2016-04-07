@@ -29,6 +29,21 @@ h4 {
   font-style: italic;
 }
 
+
+
+.thumbnail {
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border:none;
+  border-radius: 0px;
+}
+
+
+
+
 .parallax {
   background-size: cover;
   background-repeat: no-repeat;
@@ -43,7 +58,6 @@ h4 {
 .parallax h4,
 .parallax h5,
 .parallax h6 {
-  /** BR COMMENT color: #fff; **/
   color: #000;
 }
 
@@ -134,12 +148,11 @@ section {
 
 #home-slider .caption {
   position: absolute;
-  top: 40%;
+  top: 35%;
   margin-top: -104px;
   left: 0;
   right: 0;
   text-align: center;
-  /*BRtext-transform: uppercase; BR*/
   z-index: 15;
   font-size: 48px;
   line-height: 72px;
@@ -175,6 +188,7 @@ section {
   transition-property: opacity;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   height: 2037px;
 }
 
@@ -205,66 +219,6 @@ section {
   z-index: 2;
 }
 
-/*BR - remove the carousel controls from home photo 
-.left-control, .right-control {
-  position: absolute;
-  top: 50%;
-  height: 51px;
-  width: 51px;
-  line-height: 48px;
-  border-radius: 50%;
-  border:1px solid #fff;  
-  z-index: 20;
-  font-size: 24px;
-  color: #fff;
-  text-align: center;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-
-
-.left-control {
-  left: -51px
-} 
-
-.right-control {
-  right: -51px;
-}
-
-.left-control:hover, 
-.right-control:hover {
-  color: #fff;
-}
-
-
-
-#home-slider:hover .left-control {
-  left:30px
-} 
-
-#home-slider:hover .right-control {
-  right:30px
-}
-
-#home-slider .fa-angle-down {
-  position: absolute;
-  left: 50%;
-  bottom: 50px;
-  color: #fff;
-  display: inline-block;
-  width: 24px;
-  margin-left: -12px;
-  font-size: 24px;
-  line-height: 24px;
-  z-index: 999;
-  -webkit-animation: bounce 3000ms infinite;
-  animation: bounce 3000ms infinite;
-}
-
-BR*/
 
 .navbar-right li a {
   color: #fff;
@@ -301,17 +255,8 @@ BR*/
 }
 
 
-/*BR
-.our-services .col-sm-4:hover .service-icon {
-  background-color: #333;
-}
-BR*/
-
 .our-services .col-sm-4 {
-/*BR
-  border-right:1px solid #f2f2f2;
-  border-bottom:1px solid #f2f2f2;
-BR*/
+
   padding-bottom: 50px;
 }
 
@@ -902,6 +847,7 @@ BR*/
 
 .footer-logo {
   display: inline-block;
+  margin-top: 8px;
   margin-bottom: 5px;
 }
 
